@@ -10,8 +10,8 @@ import dislike from '../assets/dislike.svg'
 import like from '../assets/like.svg'
 import itsamatch from '../assets/itsamatch.png'
 
-const host = 'http://localhost:3333'
-//const host = 'https://mib-tindev-backend.herokuapp.com'
+//const host = 'http://localhost:3333'
+const host = 'https://tindev-leodaiub.herokuapp.com/'
 
 export default function Main({ match }) {
 	const [users, setUsers] = useState([]);
